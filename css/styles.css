@@ -1,12 +1,22 @@
-h1, h3 {
+h1 {
     color: fuchsia;
     text-decoration: none;
     font-family: 'Marker Felt, fantasy', Arial, sans-serif;
     font-weight: 500;
+    padding: 10px 10px 10px 20px;
 }
 
 h2 {
     color: skyblue;
+    font-family: 'Marker Felt, fantasy', Arial, sans-serif;
+    padding: 10px 10px 10px 20px;
+}
+
+h3 {
+    color: fuchsia;
+    font-family: 'Marker Felt, fantasy', Arial, sans-serif;
+    font-weight: 500;
+    padding: 10px 10px 10px 20px;
 }
 
 a:link {
@@ -22,7 +32,7 @@ a:active {
 }
 
 a:visited {
-    color: purple;
+    color: fuchsia;
     background-color: transparent;
     text-decoration: none;
 }
