@@ -1,28 +1,83 @@
 h1 {
     color: fuchsia;
     text-decoration: none;
-    font-family: 'Marker Felt, fantasy', Arial, sans-serif;
-    font-weight: 500;
-    padding: 10px 10px 10px 20px;
+    font-family: "Bona Nova SC", serif;
+    font-style: normal;
+    font-weight: 1000;
+    padding: 5px 5px 5px 5px;
 }
 
+#aboutme {
+    color: fuchsia;
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.neon {
+    color: fuchsia;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px fuchsia,
+      0 0 80px rgb(172, 29, 229),
+      0 0 90px fuchsia,
+      0 0 100px fuchsia,
+      0 0 150px rgb(172, 29, 229);
+  }  
+
 h2 {
-    color: skyblue;
+    color: rgb(172, 29, 229);
     font-family: 'Marker Felt, fantasy', Arial, sans-serif;
-    padding: 10px 10px 10px 20px;
+    padding: 5px 5px 5px 5px;
+    font-weight: 900;
 }
 
 h3 {
-    color: fuchsia;
-    font-family: 'Marker Felt, fantasy', Arial, sans-serif;
-    font-weight: 500;
-    padding: 10px 10px 10px 20px;
+    color: cyan;
+    font-family: "Bona Nova SC", serif;
+    font-style: italic;
+    font-weight: 800;
+    padding: 5px 5px 5px 5px;
 }
 
-a:link {
+h4 {
+    color: rgb(172, 29, 229);
+    font-family: "Bona Nova SC", serif;
+    font-style: normal;
+    font-weight: 900;
+    padding: 5px 5px 5px 5px;
+}
+
+h5 {
+    color: rgb(255, 98, 0);
+    font-family: "Bona Nova SC", serif;
+    font-style: normal;
+    font-weight: 800;
+    padding: 5px 5px 5px 5px;
+}
+
+p {
+    color: rgb(32, 218, 44);
+    font-family: "Bona Nova SC", serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 5px 0px 10px;
+}
+
+h1 a:link {
     color: fuchsia;
     background-color: transparent;
     text-decoration: none;
+
+}
+
+h3 a:link {
+    color: cyan;
+    background-color: transparent;
 }
 
 a:active {
@@ -35,4 +90,40 @@ a:visited {
     color: fuchsia;
     background-color: transparent;
     text-decoration: none;
+}
+
+.bona-nova-sc-regular {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.bona-nova-sc-bold {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.bona-nova-sc-regular-italic {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+ul {
+    color: rgb(172, 29, 229);
+    font-family: "Bona Nova SC", serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    list-style: none;
+    padding: 0px 5px 5px 5px;
+}
+
+li {
+    color: rgb(172, 29, 229);
+}
+
+#coming2025 {
+    font-style: italic;
 }

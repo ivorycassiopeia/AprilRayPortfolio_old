@@ -1,0 +1,15 @@
+[debug] [2024-07-28T21:09:16.569Z] ----------------------------------------------------------------------
+[debug] [2024-07-28T21:09:16.570Z] Command:       /Users/aprilray/.nvm/versions/node/v16.13.2/bin/node /Users/aprilray/.nvm/versions/node/v16.13.2/bin/firebase deploy
+[debug] [2024-07-28T21:09:16.570Z] CLI Version:   12.9.1
+[debug] [2024-07-28T21:09:16.570Z] Platform:      darwin
+[debug] [2024-07-28T21:09:16.571Z] Node Version:  v16.13.2
+[debug] [2024-07-28T21:09:16.575Z] Time:          Sun Jul 28 2024 17:09:16 GMT-0400 (Eastern Daylight Time)
+[debug] [2024-07-28T21:09:16.575Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-28T21:09:16.577Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-07-28T21:09:16.627Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-28T21:09:16.627Z] > authorizing via signed-in user (aprilraywebdev@gmail.com)
+[debug] [2024-07-28T21:09:16.628Z] [iam] checking project aprilrayportfolio2024 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-07-28T21:09:16.628Z] > refreshing access token with scopes: []
+[debug] [2024-07-28T21:09:16.628Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-07-28T21:09:16.628Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
