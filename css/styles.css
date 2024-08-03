@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-    color: cyan;
+    color: gold;
     font-family: "Bona Nova SC", serif;
     font-style: italic;
     font-weight: 800;
@@ -52,7 +52,7 @@ h4 {
 }
 
 h5 {
-    color: rgb(255, 98, 0);
+    color: gold;
     font-family: "Bona Nova SC", serif;
     font-style: normal;
     font-weight: 800;
@@ -60,7 +60,7 @@ h5 {
 }
 
 p {
-    color: rgb(32, 218, 44);
+    color: cyan;
     font-family: "Bona Nova SC", serif;
     font-size: 20px;
     font-weight: 400;
