@@ -131,3 +131,8 @@ li {
 .bg {
     background-color: black;
 }
+
+footer {
+    background-image: linear-gradient(black, fuchsia);
+    padding: 20px 0;
+}
