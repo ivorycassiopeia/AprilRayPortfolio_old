@@ -45,14 +45,14 @@ h3 {
 
 h4 {
     color: rgb(172, 29, 229);
-    font-family: "Bona Nova SC", serif;
-    font-style: normal;
-    font-weight: 900;
+    font-family: 'Marker Felt, fantasy', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 999;
     padding: 5px 5px 5px 5px;
 }
 
 h5 {
-    color: gold;
+    color: fuchsia;
     font-family: "Bona Nova SC", serif;
     font-style: normal;
     font-weight: 800;
@@ -68,8 +68,15 @@ p {
     padding: 5px 5px 0px 10px;
 }
 
+a:link {
+    color: cyan;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
 h1 a:link {
-    color: fuchsia;
+    color: cyan;
     background-color: transparent;
     text-decoration: none;
 
@@ -81,15 +88,43 @@ h3 a:link {
 }
 
 a:active {
-    color: skyblue;
+    color: fuchsia;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:visited {
+h1 a:active {
     color: fuchsia;
     background-color: transparent;
     text-decoration: none;
+
+}
+
+li a:active {
+    color: fuchsia;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: turquoise;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h1 a:visited {
+    color: turquoise;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+li a:visited {
+    color: turquoise;
+    background-color: transparent;
+    text-decoration: none;
+
 }
 
 .bona-nova-sc-regular {
@@ -121,7 +156,8 @@ ul {
 }
 
 li {
-    color: rgb(172, 29, 229);
+    color: cyan;
+    font-size: 20px;
 }
 
 #coming2025 {
@@ -135,4 +171,13 @@ li {
 footer {
     background-image: linear-gradient(black, fuchsia);
     padding: 20px 0;
+}
+
+i {
+    font-size: 18px;
+    color: gold;
+}
+
+.navbar li {
+    font-size: 18px;
 }
