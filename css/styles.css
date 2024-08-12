@@ -180,4 +180,13 @@ i {
 
 .navbar li {
     font-size: 18px;
+    text-align: start;
+}
+
+.nav-item {
+    padding: 0px 5px 0px 5px;
+    margin-right: 5px;
+    align-content: space-evenly;
+    align-content: flex-start;
+    align-items: flex-start;
 }
